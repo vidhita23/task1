@@ -1,0 +1,181 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 3%;
+    font-size: 2.2rem;
+}
+p{
+    padding: 4%;
+    font-size: 1.5rem;
+}
+/* section-1 */
+.tab-1
+{
+    background: url("images/bg-2.jpg")  ;
+   height: 90vh;
+    object-fit: cover;  
+    
+}
+
+.t-box
+{
+    position: absolute;
+    background-color: #fff6f6;
+    width: 440px;
+    height: 400px;
+    bottom: 30px;
+    left: 220px;
+    z-index: 1;
+    text-align: center;
+    
+}
+.i-1
+{
+    position: absolute;
+    object-fit: cover; 
+    top: 30px; 
+    right: 160px;
+}
+.box-1
+{
+    position: absolute;
+    width:1200px ;
+    height: 600px;
+    background-color: #c7b198;
+    left: 150px;
+    top: 40px;
+}
+
+/* section-2 */
+.tab-2
+{
+    background-color: #f6eec9;
+    display: flex;
+}
+.left
+{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.top
+{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.bottom
+{
+    padding: 2%;
+}
+
+/* section-3 */
+.tab-3
+{
+    background-color: white;
+    /* background-color: #c7b198; */
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+.left-3 h1, h3{
+    text-align: center;
+}
+hr
+{
+    background-color: black;
+}
+.right-3
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+   
+}
+.r
+{
+    display: flex;
+    height: 60vh;
+    background: linear-gradient(to bottom right, #c7b198 , white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box-2
+{
+   
+    width: 80vh;
+    height: 75vh;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+.i-3
+{
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+.i-4
+{
+    position: absolute;
+    top: 380px;
+} */
