@@ -65,7 +65,7 @@ body,html
     width: 30%;
     position: absolute;
     left: 250px;
-    top: 120%;
+    top: 125%;
     /* display: flex;
     align-items: center;
     flex-wrap: wrap; */
@@ -77,7 +77,7 @@ body,html
     width: 40%;
     position: absolute;
     right: 250px;
-    top: 100%;
+    top: 110%;
     z-index: 1;
     padding: 20px;
 /* 
@@ -93,10 +93,9 @@ body,html
       
         max-width: 100%;
         max-height: 100%;
-     
         padding: 128px 40px;
         left:50px;
-        top: 110%;
+        top: 120%;
     }
     .box-2 h1
     {
@@ -109,7 +108,7 @@ body,html
         max-width: 100%;
         padding: 0px;
         right: 50px;
-        top: 110%;
+        top: 120%;
         overflow: hidden;
         /* display: flex;
         flex-direction: column;
@@ -185,6 +184,7 @@ body,html
     /* justify-content:; */
     align-items: center;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 .name-section ,.mobile-section,.email,.msg
 {
@@ -253,5 +253,20 @@ body,html
 .form input:valid + .label-name::after
 {
     transform: translateX(0%);
+}
+.btn
+{
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    max-width: 150px;
+    letter-spacing: 2px;
+    padding:  150px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.btn:hover
+{
+    background-color: #37b1b1;
 }
 
