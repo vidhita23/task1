@@ -45,13 +45,84 @@ body,html
     text-align: center;
 }
 
+
+
 /* services---tab-2 */
-.tab-2
+.tab-2 
 {
     padding-top: 80px;
     padding-bottom: 80px;
     height: 80vh;
 }
+.tab-m
+{
+    height: 80vh;
+}
+.box-1
+{
+    background-color: rgb(0, 128, 128,0.2);
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    left: 250px;
+    top: 120%;
+    /* display: flex;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+.box-2
+{
+    background-color: rgba(27, 201, 105, 0.2);
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    right: 250px;
+    top: 100%;
+    z-index: 1;
+    padding: 20px;
+/* 
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap; */
+}
+@media (max-width:950px)
+{
+    .box-1
+    {
+      
+        max-width: 100%;
+        max-height: 100%;
+     
+        padding: 128px 40px;
+        left:50px;
+        top: 110%;
+    }
+    .box-2 h1
+    {
+        font-size: 1.2rem;
+    }
+    .box-2
+    {
+        /* width: 200px;
+        height: 200px; */
+        max-width: 100%;
+        padding: 0px;
+        right: 50px;
+        top: 110%;
+        overflow: hidden;
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    }
+}
+
+.box-2 h1
+{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .left,
 .right
 {
@@ -71,6 +142,10 @@ body,html
     shape-outside: polygon(100% 0, 100% 100%, 0 100%);
     float: right;
 }
+
+
+
+
 
 /* services---tab-3 */
 
@@ -95,6 +170,10 @@ body,html
 {
 	color: #ff4c68;
 }
+
+
+
+
 
 /* contact section tab-4 */
 .tab-4
@@ -163,8 +242,8 @@ body,html
     left: 0;
     transition: all 0.3s ease;
 }
-.form input:focus + .label-name.content-name , 
-.form input:valid +  .label-name .content-name
+.form input:focus + .label-name .content-name ,
+.form input:valid + .label-name .content-name
 {
     transform: translateY(-150%);
     font-size: 14px;
